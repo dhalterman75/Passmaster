@@ -1,5 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+//import logo from './logo.svg';
+//import './App.css';
+
+import React from 'react';
+// importing components
+import Navbar from './components/Navbar';
+import Main from './components/pages/Main';
 
 /*
 function App() {
