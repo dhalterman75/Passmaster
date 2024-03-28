@@ -8,14 +8,14 @@ function Navbar() {
       <a class="navbar-brand px-3" href="/">
         <img
           src={require('./images/passmaster_logo.png')}
-          border-radius="25"
+          style={{"border-radius": "15%"}}
           padding-left="10px"
           width="50"
           height="50"
           class="d-inline-block align-top"
           alt=""
         />
-        Passmaster
+      Passmaster
       </a>
       <button
         className="navbar-toggler"
@@ -28,31 +28,31 @@ function Navbar() {
       >
         <span className="navbar-toggler-icon"></span>
       </button>
-      <div className="collapse navbar-collapse justify-content-center">
+      <div className="collapse navbar-collapse">
         <ul className="navbar-nav">
           <li className="nav-item nav link px-3">
             <Link classname={"links"} to={"/"}>
-              <p style={{ "font-size": "15px" }}>Home</p>
+              <p style={{ "font-size": "15px", "color": 'black' }}>Home</p>
             </Link>
           </li>
           <li className="nav-item nav link px-4">
             <Link to={"/signup"}>
-              <p style={{ "font-size": "15px" }}>Sign Up</p>
+              <p style={{ "font-size": "15px", "color": 'black' }}>Sign Up</p>
             </Link>
           </li>
           <li className="nav-item nav link px-4">
             <Link to={"/login"}>
-              <p style={{ "font-size": "15px" }}>Log In</p>
+              <p style={{ "font-size": "15px", "color": 'black' }}>Log In</p>
             </Link>
           </li>
           <li className="nav-item nav link px-4">
             <Link to={"/passwords"}>
-              <p style={{ "font-size": "15px" }}>Passwords</p>
+              <p style={{ "font-size": "15px", "color": 'black' }}>Passwords</p>
             </Link>
           </li>
           <li className="nav-item nav link px-4">
             <Link to={"/account"}>
-              <p className={"link"} style={{ "font-size": "15px" }}>
+              <p className={"link"} style={{ "font-size": "15px", "color": 'black' }}>
                 Account
               </p>
             </Link>
