@@ -3,6 +3,7 @@ import React from "react";
 
 function Login() {
   return (
+    <div className="container align-middle" style={{"width": "50%"}}>
     <form>
       <div class="form-group">
         <label for="exampleInputEmail1">Email address</label>
@@ -36,6 +37,7 @@ function Login() {
         Submit
       </button>
     </form>
+    </div>
   );
 }
 
