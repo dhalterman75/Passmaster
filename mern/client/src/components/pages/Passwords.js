@@ -3,7 +3,9 @@ import React from "react";
 function Passwords() {
   return (
     <div>
-      <p>This is the passwords page</p>
+      <p style={{ "text-align": "center", "font-size": "50px", "font-family": "Lucida Console, Courier New, monospace" }}>
+          Saved passwords
+        </p>
     </div>
   );
 }

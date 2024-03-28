@@ -3,6 +3,10 @@ import React from "react";
 
 function Login() {
   return (
+    <div>
+      <p style={{ "text-align": "center", "font-size": "50px", "font-family": "Lucida Console, Courier New, monospace" }}>
+          Log into your account
+        </p>
     <div className="container align-middle" style={{"width": "50%"}}>
     <form>
       <div className="form-group">
@@ -37,6 +41,7 @@ function Login() {
         Submit
       </button>
     </form>
+    </div>
     </div>
   );
 }
