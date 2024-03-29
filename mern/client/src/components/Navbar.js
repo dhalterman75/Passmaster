@@ -15,7 +15,7 @@ function Navbar() {
           class="d-inline-block align-top"
           alt=""
         />
-        Passmaster
+        EZvault
       </a>
       <button
         className="navbar-toggler"
