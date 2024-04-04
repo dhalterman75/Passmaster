@@ -25,7 +25,7 @@ function Signup() {
               We'll never share your email with anyone else.
             </small>
           </div>
-          <div className="form-group">
+          <div className="form-group" style={{marginBottom: "10px"}}>
             <label for="exampleInputPassword1">Password</label>
             <input
               type="password"
@@ -33,16 +33,6 @@ function Signup() {
               id="exampleInputPassword1"
               placeholder="Password"
             />
-          </div>
-          <div className="form-group form-check">
-            <input
-              type="checkbox"
-              class="form-check-input"
-              id="exampleCheck1"
-            />
-            <label class="form-check-label" for="exampleCheck1">
-              Remember this device
-            </label>
           </div>
           <button type="submit" class="btn btn-primary">
             Submit

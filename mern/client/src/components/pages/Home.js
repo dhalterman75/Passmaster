@@ -11,7 +11,7 @@ const HomePage = () => {
         </p>
         </div>
 
-        <div className="image-container">
+        <div className="image-container" style={{marginTop: "50px", marginBottom: "50px"}}>
         <img
           src={require("../images/passmaster_logo.png")}
           style={{ "border-radius": "5%", "text-align": "center" }}

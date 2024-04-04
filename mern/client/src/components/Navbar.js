@@ -15,7 +15,6 @@ function Navbar() {
           class="d-inline-block align-top"
           alt=""
         />
-        EZvault
       </a>
       <button
         className="navbar-toggler"
